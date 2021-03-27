@@ -1,0 +1,76 @@
+/* header starts */
+#logo{
+    height: 100px;
+    padding: 25px;
+    margin-left: 100px;
+}
+.headdiv1 a{
+    text-decoration: none;
+    color: azure;
+    padding: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.header1{
+    height: 150px;
+    /* float: left; */
+    /* background-color: transparent; */
+    background-color: rgb(120, 134, 148,0.1); 
+    /* opacity: 0.6; */
+}
+ /* .header1 img{
+    float: left;
+    /* margin-top: 25px; */
+    /* margin-right: 15px; */
+
+.righ{
+    padding-top: 50px;
+    float: right;
+    padding-right: 425px;
+    line-height: 0px;
+}
+.navbar .h3tag{
+    color: whitesmoke;
+}
+.h5tag{
+    color: whitesmoke;
+}
+.headdiv1{
+    float :right; 
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.headdiv1 #adiv{
+    margin-top: 40px;
+}
+.headdiv1 .act1{
+    color: darkseagreen;
+    background-color:crimson;
+
+}
+/* header ends */
+
+
+/* footer begins */
+.foot
+{
+    height: 100px;
+}
+.foot1{
+    height: 75px;
+    color:gray;
+    background-color:blanchedalmond;
+    text-align: center;
+    line-height: 22px;
+}
+.foot2{
+    height: 25px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 5px;
+}
+.col{
+    color: crimson;
+}
+/* footer ends */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="./style-login.css">
+    <link rel="stylesheet" href="./head-footer.css">
+</head>
+<body >
+
+     <!-- head begins -->
+     <header class="header1">
+        <div class="headdiv1" id="adiv">
+            <s><a  style="pointer-events: none;" href="home.html">HOME</a></s>
+            <s><a  style="pointer-events: none;" href="district.html">DISTRICT</a></s>
+            <s><a  style="pointer-events: none;" href="about.html">ABOUT</a></s>
+            <a class="act1" href="#">LOGIN</a>
+            <s><a  style="pointer-events: none;" href="signup.html">SIGNUP</a></s>
+        </div>
+        <div class="navimg">
+            <div class="righ">
+            <h3 class="h3tag" style="color: whitesmoke;">kerala tourism</h3>
+            <h5 class="h5tag">Welcome to God's Own Country</h5>
+            <div style="padding-left: 30px;">
+                <a href="#"><img src="./image/icon/3.png" ></a>
+                <a href="#"><img src="./image/icon/2.png" ></a>
+                <a href="#"><img src="./image/icon/1.png" ></a>
+            </div>
+            </div>
+            <img src="https://i0.wp.com/www.travindy.com/wp-content/uploads/2015/07/Kerala_Gods_Own_Country_Logo.svg_-e1436176995148.png?fit=600%2C372&ssl=1" id="logo" style=" margin-left: 70px;">
+        </div>
+    </header> 
+    <!-- head ends -->
+
+
+    <!-- form begins -->
+    <div class="login-sub-form form1" >
+        <h2>Welcome Back!!!</h2>
+        <p>To keep connected with us please 
+            <br> login with your personal info 
+        </p>
+    </div>
+    <div class="login-form2 form1">
+      <fieldset>
+            <legend class="leg"><i>LOG IN</i></legend><br>
+            <form action="index.html"  onsubmit="return submit1();">
+                <legend>Email</legend>
+                <input type="email" placeholder="enter your email" id="email" onkeyup="validemail()" required><br><br>
+                <legend >Password <a href="#"><img src="https://img.icons8.com/emoji/452/white-exclamation-mark-emoji.png" class="password1" onclick="pass1()"></a></legend>
+                <input type="password" placeholder="enter your password" id="password" onkeyup="validpass()"  required><a href="#"><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/699369-icon-22-eye-512.png" id="hide" onmouseover="hidepass();" onmouseout="openpass()" height="30px" style="float: right;  padding-right: 0px;"></a><br><br><br>
+                <input type="submit" class="ssub" value="login">
+            </form>
+        </fieldset>
+    </div>
+    <div id="pass">
+        <a href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/VisualEditor_-_Icon_-_Close_-_white.svg/1200px-VisualEditor_-_Icon_-_Close_-_white.svg.png" id="close1" onclick="closeing();">
+        </a>
+        <h3><i>Password must contain :</i></h3>
+        <p id="ch1" class="invalid">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <b>lowercase</b> letter</p>
+        <p id="ch2" class="invalid">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <b>capital (uppercase)</b> letter</p>
+        <p id="ch3" class="invalid">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <b>number</b></p>
+        <p id="ch4" class="invalid">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minimum <b>8 characters</b></p>
+    </div>
+    
+    <!-- form ends -->
+    
+     <!-- footer begins -->
+     <footer class="foot" id="foot">
+        <div class="foot1">
+            Toll free No:<span class="col"> 1-800-425-4747 </span>(Within India only)<br>
+            Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033<br>
+            Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail:<span class="col">  info@keralatourism.org.</span>
+        </div>
+        <div class="foot2">
+            All rights reserved © Kerala Tourism 2021.
+             Copyright | Terms of Use | Cookie Policy | Contact Us
+        </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="validation.js"></script>
+</body>
+</html>

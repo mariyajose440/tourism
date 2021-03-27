@@ -1,0 +1,97 @@
+/* district1 starts */
+
+/* dropdoenlist begins */
+.drpdwn{
+    margin-top: 25px; 
+    margin-left: 50px;
+    padding-right: 60px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 900px;
+}
+.drpcont{
+    display: none;
+    position: absolute;
+    box-shadow: 0 15px 20px 0 gray;
+    z-index: 1;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    width: 850px;
+    padding: 25px;
+}
+.drp{
+    height: 700px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.drpdwn:hover .drpcont{
+    display: block;
+}
+.bt{
+    padding-top: 10px;
+    width: 900px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
+}
+.bt img{
+    float:right; 
+    height: 25px;
+} 
+/* dropdown list ends */
+/* animation starts */
+.animation img{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    margin-left: 5px;
+    box-shadow: 0 10px 10px 0 gray;
+}
+.animation{
+    align-items: center;
+    align-self: center;
+    margin-left: 5px;
+}
+.animation img:hover{
+    transform: scale(2,2);
+}
+.dis{
+    margin-left: 50px;
+    word-spacing: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+} 
+.fam{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 50px;
+}
+/* district1 ends */
+
+/* button starts */
+.butt{
+    margin: 100px;
+    margin-left: 50px;
+}
+.prev{
+    padding: 5px;
+    height: 35px;
+    width: 200px;
+    margin-left: 200px;
+    background-color: gray;
+}
+.butt a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* button ends */
+
+
+/* animation ends */

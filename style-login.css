@@ -1,0 +1,112 @@
+body{
+     background-image: url("https://i.pinimg.com/originals/30/64/aa/3064aa4e4440986d98fdbed6153958a6.jpg");
+    background-size : cover;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/* login page started */
+.form1{
+    margin-top:50px;
+    float: left;
+}
+#pass{
+    /* padding: 50px; */
+    background-color: rgb(154, 205, 50,0.1);
+    border: 1px solid whitesmoke;
+    color: black;
+    margin: 5px;
+    margin-top: 75px;
+    position: relative;
+    float: left;
+    display: none;
+    width: 250px;
+    color: whitesmoke;
+    padding-left: 15px;
+}
+.invalid {
+    color:rgb(243, 157, 141);
+    font-style: italic;
+  }
+  .valid {
+    color: rgb(125, 209, 125);
+    font-style: italic;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: 15px;
+    content: "✔";
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: 15px;
+    content: "✖";
+  }
+#close1{
+    margin: 0%;
+    padding: 0;
+    float: right;
+    height: 25px;
+}
+.password1{
+    height: 15px;
+}
+/* .password1:hover{
+     background-color:darkgreen;
+     
+} */
+/* .password1:hover .pass{
+    background-color: black;
+    color: coral;
+    display: block;
+} */
+.login-sub-form{
+    background-color: rgb(194, 171, 140);
+    background-position: 25%;
+    margin-left: 75px;
+    opacity: 0.6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 25%; 
+}
+.login-sub-form p{
+    text-align:center;
+    font-size: 20px;
+}
+.login-sub-form h2{
+    text-align: center;
+    font-size: 30px;
+}
+.login-form2 fieldset{
+    padding: 25px;
+    height: 250px;
+    width: 210px;
+    margin-left: 5px;
+    text-decoration: blanchedalmond;
+    padding-left: 50px;
+}
+.login-form2 .leg{
+    color: cornsilk;
+    font-size: 25px;
+    font-weight:bold;
+}
+.login-form2 legend{
+    color: cornsilk;
+    font-size: 17px;
+}
+.login-form2 .ssub{
+    background-color: cornsilk;
+    margin-left: 50px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+/* login page ends */
+
+#foot{
+    margin-top: 499px;
+}

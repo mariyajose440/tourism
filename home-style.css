@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(https://www.teagasc.ie/media/website/news/2020/Chris_Martin-Forest_Wildlife_and_Plants.jpg) ;
+    /* background-size: 1600px; */
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* contact us starts */
+.cont{
+    background-color: whitesmoke;
+    text-align: center;
+    padding:50px;
+}
+.cont img{
+    height: 100px;
+    background-color: whitesmoke;
+    margin: 10px;
+    
+}
+.cont h2{
+    color: black;
+    padding: 25px;
+}
+#car1{
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+/* contact us ends */
+
+/* white section starts */
+#white1{
+     background-color:transparent; 
+     height: 1300px; 
+    /* padding: 100px; */
+}   
+ .subwhite{
+    background-color:rgba(36, 24, 24, 0.2); 
+    margin: 50px;
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    /* opacity: 0.3 ; */
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+#white1 h1{
+    color:linen;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+}
+#sub2{
+    margin-top: 300px;
+}
+#sub3{
+    margin-top: 600px;
+}
+/* white section ends */
+.right{
+    float: right;
+    line-height: 0px;
+    padding-right: 300px;
+    padding-top: 50px;
+    /* font-size: 5px; */
+}

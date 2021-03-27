@@ -1,0 +1,99 @@
+body{
+    margin-left: 33px;
+    background-color:white;
+    /* background-image: url(./image/cinemagraph-autumn-leaf-background-footage-095851940_iconl.webp); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+.su1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 370px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: monospace;
+    flex-direction: initial;
+}
+.boxshadow{
+    width: 330px;
+    box-shadow: 0 4px 8px 0 gray , 0 4px 8px 0 gray;
+    padding-bottom: 25px;
+    border-style: groove;
+    float: left;
+    margin: 15px;
+    position: relative;
+    background:whitesmoke;
+}
+
+.boxshadow img{
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+    margin-top: 25px;
+}
+.boxshadow h3{
+    text-align: center;
+    font-family:30px inherit;
+    font-style: italic;
+}
+.boxshadow a{
+    text-decoration: none;
+    color: gray;
+}
+/* .boxshadow img:hover{
+    transform: scale(1.1);
+} */
+.boxshadow .over1{
+    color:khaki;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    bottom: 0;
+    right: 0;
+    width: 91%;
+    height: 59%; 
+    margin-top: 40px; 
+    margin-left: 15px; 
+    background:rgb(0,0,0,0.6);
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.over1:hover{
+    opacity:1;
+    background: rgb(139, 163, 115,0.6);
+}
+
+
+
+/* .dropdown1{
+    position: relative;
+    display:block;
+}
+.dropdown2{
+    position: relative;
+    display: block;
+}
+.content{
+    display: none;
+}
+.dropdown1:hover .content{
+    display: block;
+}
+.dropdown2:hover .content{
+    display:flex;
+} */
+
+#foot{
+    margin-top: 1600px;
+}
+.right{
+    float: right;
+    line-height: 0px;
+    padding-right: 365px;
+    padding-top: 50px;
+}

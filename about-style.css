@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://ctabundance.files.wordpress.com/2016/10/autumn-leaves1.gif");
+    background-size: cover;
+}
+.aboutdiv{
+    background-color: darkslategray;
+    opacity: 0.8;
+    color: gainsboro;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px; 
+    padding: 25px;
+    text-align: justify;
+    font-size: 25px;
+}
+.cont{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+.cont a{
+    margin: 7px;
+}
+.cont img{
+    height: 50px;
+}
+.log{
+    height: 100px;
+    padding: 25px;
+    margin-left: 70px;
+}
+.lef{
+    float: right;
+    line-height: 0px;
+    padding-right: 400px;
+    padding-top: 50px;
+}
